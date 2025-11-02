@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Android local config
+android/llama_cpp_app/local.properties
+
+# Model weights and large assets
+models/
+android/llama_cpp_app/app/src/main/assets/models/
+android/llama_cpp_demo/
+*.gguf
+*.hprof
+*.apk
+*.aab
+
+# Android/Gradle build outputs
+.gradle/
+android/llama_cpp_app/.gradle/
+**/build/
+**/.cxx/
+
+# IDE artifacts
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
